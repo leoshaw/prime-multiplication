@@ -1,0 +1,23 @@
+GIT
+  remote: https://github.com/tj/terminal-table.git
+  revision: a40250337e49edfda80ed1cbec31bebde2afc758
+  ref: a402503
+  specs:
+    terminal-table (1.7.3)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.10.1)
+    unicode-display_width (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  terminal-table!
+
+BUNDLED WITH
+   1.13.6
