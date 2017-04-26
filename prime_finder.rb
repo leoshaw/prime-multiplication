@@ -1,5 +1,5 @@
 class PrimeFinder
-  def findFirst(count)
+  def first(count)
     sieve.take(count)
   end
 
