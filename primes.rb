@@ -1,9 +1,5 @@
 require "optparse"
-require 'ostruct'
-require "terminal-table"
-
 require_relative "prime_table"
-require_relative "prime_finder"
 
 begin
   puts PrimeTable.new.build(*ARGV)

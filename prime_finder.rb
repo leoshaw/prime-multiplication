@@ -3,6 +3,8 @@ class PrimeFinder
     sieve.take(count)
   end
 
+  private
+
   def sieve
     composites = Hash.new{|h, k| h[k] = []}
     i = 2
