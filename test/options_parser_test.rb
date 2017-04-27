@@ -1,6 +1,6 @@
+require_relative "test_helper"
 require "minitest/autorun"
-
-require_relative "../options_parser"
+require "options_parser"
 
 describe OptionsParser do
   let(:parser) { OptionsParser.new }

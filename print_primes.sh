@@ -1,1 +1,1 @@
-bundle exec ruby primes.rb $1 $2
+bundle exec ruby lib/primes.rb $1 $2

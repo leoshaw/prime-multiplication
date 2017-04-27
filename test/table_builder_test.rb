@@ -1,6 +1,6 @@
+require_relative "test_helper"
 require "minitest/autorun"
-
-require_relative "../table_builder"
+require "table_builder"
 
 describe TableBuilder do
   let(:builder) { TableBuilder.new }

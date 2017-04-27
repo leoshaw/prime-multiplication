@@ -1,3 +1,4 @@
+require "ostruct"
 
 class OptionsParser
   def parse(args)

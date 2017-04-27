@@ -1,6 +1,6 @@
+require_relative "test_helper"
 require "minitest/autorun"
-
-require_relative "../prime_finder"
+require "prime_finder"
 
 describe PrimeFinder do
   describe "when asked for primes" do
