@@ -12,3 +12,7 @@ Run `bundle` to install gems
 ## Running tests
 
 `bundle exec rake test`
+
+## Algorithm
+
+Primes are generated using an incremental implementation of the Sieve of Eratosthenes, described here https://www.cs.hmc.edu/~oneill/papers/Sieve-JFP.pdf
